@@ -1,0 +1,51 @@
+.sTable {
+  	position: relative;
+  	display: inline-block;
+  	border: 1px solid #48AAE6;
+  	margin: 55px;
+}
+.sTable table {
+  	border-collapse: collapse;
+}
+.sTable table td {
+  	background-color: #48AAE6;
+  	width: 50px;
+  	height: 50px;
+  	border: 2px solid white;
+}
+.sTable button {
+  	position: absolute;
+  	width: 50px;
+  	height: 50px;
+  	border: none;
+  	color: white;
+  	font-size: 24px;
+  	margin: 2px;
+  	cursor: pointer;
+  	transition: left .45s ease, top .45s ease, opacity .45s ease;
+}
+.sTable button:hover {
+  	opacity: .75;
+}
+.sTable .addRow {
+ 	background-color: #F3A500;
+  	top: 100%;
+  	left: 0;
+}
+.sTable .addCol {
+  	background-color: #F3A500;
+  	top: 0;
+  	left: 100%;
+}
+.sTable .delRow {
+  	background-color: #B20000;
+  	visibility: hidden;
+  	right: 100%;
+  	top: 0;
+}
+.sTable .delCol {
+  	background-color: #B20000;
+  	visibility: hidden;
+  	bottom: 100%;
+  	left: 0;
+}
